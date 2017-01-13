@@ -31,7 +31,11 @@ You will have a session of the victim's machine in Kali.
 
 If you had chosen a backdoor created using msfvenom, backdoor-factory or unicorn, you will have a metasploit session of the victim. The metasploit's sessions can be configured to automatically run post modules, meterpreter commands and shell commands in the config folder. This means that when you capture a metasploit sessions this modules and commands will run automatically.
 
-## How to configure which post modules, meterpreter commands and shell commands automatically run
+## Configure which metasploit payloads to use
+You can select which metasploit payloads to use in the document called payloads.txt in the config folder.
+Te sintax is: PAYLOAD PORT
+
+## Configure which post modules, meterpreter commands and shell commands automatically run
 You just have to go to the config folder and there you will find some folders of differents OS. Go inside anyone and you will find some text documents where you can write which post modules, meterpreters commands and shell commands run when you capture a session in a machine that uses the OS selected.
 
 ## Requirements
