@@ -33,6 +33,12 @@ If you had chosen a backdoor created using msfvenom, backdoor-factory or unicorn
 ## How to configure which post modules, meterpreter commands and shell commands automatically run
 You just have to go to the config folder and there you will find some folders of differents OS. Go inside anyone and you will find some text documents where you can write which post modules, meterpreters commands and shell commands run when you capture a session in a machine that uses the OS selected.
 
+## Requirements
++ Measploit
++ Backdoor-factory
++ Apache2
+KAOSK has been tested in Kali2.
+
 ## Install
 python ./install.py
 
