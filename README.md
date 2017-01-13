@@ -1,6 +1,6 @@
 # KAOSK-Backdoors
 ==========
-It's a tool that automate: 
+It's a tool that automates: 
 + the installation of some Backdoor's creation programs
 + the creation of the backdoors to use in a victim machine
 + a web where you can download the backdoors created
