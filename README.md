@@ -38,6 +38,7 @@ You just have to go to the config folder and there you will find some folders of
 + Measploit
 + Backdoor-factory
 + Apache2
+
 KAOSK has been tested in Kali2.
 
 ## Install
