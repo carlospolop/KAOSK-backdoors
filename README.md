@@ -19,11 +19,14 @@ Run in Kali:
 + python ./handler.py 192.168.0.100
 
 In the victim machine:
-Use a browser and navigate to 192.168.0.100/back and you will see the backdoors created before in the attacker
-Download the backdoor that you want to use
+
+Use a browser and navigate to 192.168.0.100/back and you will see the backdoors created before in the attacker machine.
+
+Download the backdoor that you want to use.
+
 Run the backdoor
 
-You will have a session in the victim's machine.
+You will have a session of the victim's machine in Kali.
 
 If you have chose a backdoor created with msfvenom, backdoor-factory or unicorn, you will have a metasploit session in the victim. The metasploit's sessions can be configured to run post modules, meterpreter commands and shell commands in the config folder. This means that when you capture a metasploit sessions this modules and commands will run automatically.
 
