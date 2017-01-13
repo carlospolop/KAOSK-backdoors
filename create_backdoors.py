@@ -6,7 +6,7 @@ from config_paths import *
 def execute_comand(cmd):
     try:
         print cmd
-        call(cmd, shell=True)
+	call(cmd, shell=True)
     except:
         print "UNCOMPLETE: "+cmd
 
