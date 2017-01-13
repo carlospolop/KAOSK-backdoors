@@ -48,6 +48,7 @@ def create_file(path):
         f.close()
 
 create_file(payloads_path)
+create_file(moves_path)
 
 
 ### GIT CLONES
@@ -116,3 +117,5 @@ def install_RSPET():
 
 install_pupy()
 install_RSPET()
+
+os.system("chown www-data -R "+main_path)

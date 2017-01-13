@@ -30,8 +30,6 @@ import re
 import sys
 from config_paths import *
 
-moves_path = main_path+"moves.txt"
-
 def create_directory(path):
     if not os.path.exists(path):
         os.makedirs(path)
@@ -338,11 +336,11 @@ start_service("apache2")
 start_service("postgresql")
 create_file(moves_path)
 
-os.system("chown www-data -R "+main_path)
-
 print "Lets going to run a metasploit console so the next one will start faster"
 comando = "msfconsole"
 os.system("gnome-terminal -e 'bash -c \""+comando+"; exec bash\"' 2> /dev/null")
+os.system("chown www-data -R "+main_path)
+os.system("chown www-data "+moves_path)
 print "Listening..."
 while True:
     handle_payloads = moves_read()

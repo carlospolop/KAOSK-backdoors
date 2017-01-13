@@ -35,6 +35,7 @@ var_path = KAOSK_path + "var/"
 
 #Files
 payloads_path = config_path + "payloads.txt"
+moves_path = main_path+"moves.txt"
 
 #Backdoors
 miaomiao_path = git_path+"MiaoMiao/"
