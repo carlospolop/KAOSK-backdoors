@@ -1,8 +1,5 @@
 <?php
 
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 # Copyright (c) 2017, Carlos Polop Martin <carlospolop[at]gmail.com
 # All rights reserved.
 #
