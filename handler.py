@@ -334,11 +334,11 @@ else:
     LHOST = autoLHOST()
     print "Using IP: "+LHOST
 
-os.system("chown www-data -R "+main_path)
-
 start_service("apache2")
 start_service("postgresql")
 create_file(moves_path)
+
+os.system("chown www-data -R "+main_path)
 
 print "Lets going to run a metasploit console so the next one will start faster"
 comando = "msfconsole"
