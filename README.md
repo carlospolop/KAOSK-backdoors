@@ -21,10 +21,8 @@ Run in Kali:
 In the victim machine:
 
 Use a browser and navigate to 192.168.0.100/back and you will see the backdoors created before in the attacker machine.
-
 Download the backdoor that you want to use.
-
-Run the backdoor
+Run the backdoor.
 
 You will have a session of the victim's machine in Kali.
 
