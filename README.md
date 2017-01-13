@@ -96,6 +96,6 @@ https://github.com/panagiks/RSPET.git
 
 ## Unicorn
 Creates differents types of backdoors and it is all automated.
-Use metasploit as listener.
+Uses metasploit as listener.
 
 https://github.com/n1nj4sec/pupy.git
