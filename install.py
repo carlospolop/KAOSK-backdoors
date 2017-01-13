@@ -13,7 +13,9 @@ def create_dir(path):
 
 create_dir(main_path)
 create_dir(git_path)
-
+create_dir(var_path)
+create_dir(var_path+"rc")
+create_dir(var_path+"ruby")
 
 ### FILES
 def create_file(path):
@@ -90,4 +92,3 @@ def install_RSPET():
 
 install_pupy()
 install_RSPET()
-
