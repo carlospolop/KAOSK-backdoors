@@ -34,6 +34,7 @@ If you had chosen a backdoor created using msfvenom, backdoor-factory or unicorn
 You just have to go to the config folder and there you will find some folders of differents OS. Go inside anyone and you will find some text documents where you can write which post modules, meterpreters commands and shell commands run when you capture a session in a machine that uses the OS selected.
 
 ## Requirements
++ Python
 + Measploit
 + Backdoor-factory
 + Apache2
