@@ -1,0 +1,17 @@
+osx/capture/screen
+osx/gather/autologin_password
+osx/gather/enum_airport
+osx/gather/enum_kaychain
+osx/gather/enum_osx
+osx/gather/hasdump
+osx/gather/password_prompt_spoof
+osx/gather/safari_lastsession
+multi/gather/ssh_creds
+multi/gather/pidgin_cred
+multi/gather/firefox_creds
+multi/gather/filezilla_client_cred
+multi/gather/fetchmailrc_creds
+multi/gather/thunderbird_creds
+multi/gather/netrc_creds
+multi/gather/gpg_creds
+multi/gather/skype_enum

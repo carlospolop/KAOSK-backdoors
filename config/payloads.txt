@@ -1,0 +1,13 @@
+ruby/shell_reverse_tcp 5000
+python/meterpreter/reverse_tcp 5001
+windows/meterpreter/reverse_http 5002
+windows/meterpreter/reverse_tcp 5003
+windows/x64/meterpreter_reverse_tcp 5004
+windows/powershell_reverse_tcp 5005
+linux/x86/meterpreter/reverse_tcp 5006
+linux/x86/shell/reverse_tcp 5007
+android/meterpreter/reverse_tcp 5008
+php/meterpreter/reverse_tcp 5009
+java/meterpreter/reverse_tcp 5010
+java/meterpreter/reverse_tcp 5011
+osx/x64/shell_reverse_tcp 5012
