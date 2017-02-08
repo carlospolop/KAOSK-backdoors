@@ -41,7 +41,7 @@ You just have to go to the config folder and there you will find some folders of
 
 ## Requirements
 + Python
-+ Measploit
++ Metasploit
 + Backdoor-factory
 + Apache2
 
