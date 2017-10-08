@@ -104,3 +104,9 @@ Creates differents types of backdoors and it is all automated.
 Uses metasploit as listener.
 
 https://github.com/n1nj4sec/pupy.git
+
+
+
+
+## Conditions
+The owner of this software made it with educational and didactic purposes and is not responsable of the use of it.
