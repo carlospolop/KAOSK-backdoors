@@ -59,7 +59,6 @@ KAOSK has been tested in Kali2.
 
 
 # Backdoors created
---------------------
 ## Backdoors used:
 + Backdoor-factoy
 + MiaoMiao
