@@ -1,11 +1,11 @@
 # KAOSK-Backdoors
-==========
+
 It's a tool that automates: 
-+ the installation of some Backdoor's creation programs
-+ the creation of the backdoors to use in a victim machine
-+ a web where you can download the backdoors created
-+ the listener of the backdoors downloaded
-+ the actions of the listener
++ The installation of some Backdoor's creation programs
++ The creation of the backdoors to use in a victim machine
++ Start running an Apache where you can download the backdoors created
++ The starting of he listener of the backdoors downloaded
++ The actions to execute when a victim if connected to the listener
 
 ## Example
 Using Kali2 as the attacker with IP: 192.168.0.100
@@ -13,18 +13,19 @@ Using Kali2 as the attacker with IP: 192.168.0.100
 Using any machine as the victim in the same network as the attacker.
 
 Run in Kali:
-+ git clone https://github.com/carlospolop/KAOSK-backdoors.git
-+ cd ./KAOSK-backdoors
-+ python ./install.py
-+ python ./create_backdoors.py 192.168.0.100
-+ python ./handler.py 192.168.0.100
-
+```bash
+git clone https://github.com/carlospolop/KAOSK-backdoors.git
+cd ./KAOSK-backdoors
+python ./install.py
+python ./create_backdoors.py 192.168.0.100
+python ./handler.py 192.168.0.100
+``` 
 In the victim machine:
 
 Use a browser and navigate to 192.168.0.100/back and you will see the backdoors created before in the attacker machine.
 Download the backdoor that you want to use.
 
-Run the backdoor.
+Run the backdoor downloaded in the victim machine.
 
 
 You will have a session of the victim's machine in Kali.
@@ -48,16 +49,16 @@ You just have to go to the config folder and there you will find some folders of
 KAOSK has been tested in Kali2.
 
 ## Install
-python ./install.py
+`python ./install.py`
 
-## Create Backdoors
-python ./create_backdoors.py IP_attacker
+## Create the Backdoors
+`python ./create_backdoors.py IP_attacker`
 
 ## Start handler
-python ./handler.py IP_attacker
+`python ./handler.py IP_attacker`
 
 
-# To Know about the backdoors
+# Backdoors created
 --------------------
 ## Backdoors used:
 + Backdoor-factoy
@@ -104,7 +105,6 @@ Creates differents types of backdoors and it is all automated.
 Uses metasploit as listener.
 
 https://github.com/n1nj4sec/pupy.git
-
 
 
 
